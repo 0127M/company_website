@@ -1,0 +1,138 @@
+.gradient-background {
+    background: linear-gradient(300deg, #F0DBAF, #474E68, #7ED7C1);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+    height: 280px;
+  }
+.gradient-background-footer {
+    background: linear-gradient(300deg, #7ED7C1, #F0DBAF, #EBE3D5);
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+  
+  /* .profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+   */
+.navbar{
+    background-color: transparent;
+}
+  
+.nav-item{
+    padding-top: 20px;
+    font-family: 'Abril Fatface', serif;
+    font-size: 20px;
+}
+  
+.nav-link{
+    padding: 10px;
+}
+
+
+.navbar-brand{
+    font-size: 70px;
+    padding-right: 20%;
+    padding-left: 5%;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}   
+.nav-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.quote{
+    /* font-family: 'Lobster', sans-serif; */
+    /* font-family: 'Lobster Two', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Silkscreen', sans-serif; */
+    font-family: 'Abril Fatface', serif;
+    size: 100px;
+    color: #faf9f6;
+    text-align: center;
+}
+.container-quote{
+    margin: auto;
+}
+
+/* feature section */
+
+#features {
+    padding: 7% 15%;
+
+}
+
+.features-quote{
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* what we do section  */
+
+.what_we_do_quote{
+    font-family: "Ubuntu";
+    text-align: center;
+    padding: 5%;
+}
+
+/* testimonials section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    padding: 7% 15%;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    padding: 3%;
+    
+}
+
+.dog-image{
+    padding: 2% 2%;
+    text-align: center;
+    border-radius: 50% 
+}
+
+.testimonial-image{
+    padding: 2% 2%;
+    text-align: center;
+    border-radius: 50% 
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}   
